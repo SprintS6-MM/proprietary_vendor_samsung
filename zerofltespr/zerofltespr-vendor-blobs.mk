@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zerofltespr/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/zerofltespr/proprietary/bin/rtc_log.sh:system/bin/rtc_log.sh \
 	vendor/samsung/zerofltespr/proprietary/bin/umount:system/bin/umount \
-	vendor/samsung/zerofltespr/proprietary/etc/sec_s3fwrn5s_rfreg_for_old_hw.bin:system/etc/sec_s3fwrn5s_rfreg_for_old_hw.bin \
+	vendor/samsung/zerofltespr/proprietary/etc/sec_s3fwrn5p_rfreg.bin:system/etc/sec_s3fwrn5p_rfreg.bin \
 	vendor/samsung/zerofltespr/proprietary/etc/sec_config:system/etc/sec_config \
 	vendor/samsung/zerofltespr/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
 	vendor/samsung/zerofltespr/proprietary/etc/Diag_zero.cfg:system/etc/Diag_zero.cfg \
@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zerofltespr/proprietary/lib64/libatparser.so:system/lib64/libatparser.so \
 	vendor/samsung/zerofltespr/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
 	vendor/samsung/zerofltespr/proprietary/lib/libchameleon.so:system/lib/libchameleon.so \
+	vendor/samsung/zerofltespr/proprietary/lib64/libcharon.so:system/lib64/libcharon.so \
 	vendor/samsung/zerofltespr/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/zerofltespr/proprietary/lib64/libcordon.so:system/lib64/libcordon.so \
 	vendor/samsung/zerofltespr/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
@@ -81,6 +82,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zerofltespr/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
 	vendor/samsung/zerofltespr/proprietary/vendor/lib64/libqmi_csi.so:system/vendor/lib64/libqmi_csi.so\
 	vendor/samsung/zerofltespr/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+        vendor/samsung/zerofltespr/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
 	vendor/samsung/zerofltespr/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
 	vendor/samsung/zerofltespr/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
 	vendor/samsung/zerofltespr/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
